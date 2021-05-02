@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name" : "Rework for greener page",
+    "description": "get url, parse it with g, execute script",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon-48.png"
+    },
+    "action": {
+        "default_title": "Get current URL"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab"
+    ]
+}
